@@ -30,8 +30,8 @@ Chatbot berbasis **Retrieval-Augmented Generation (RAG)** yang menjawab pertanya
 | Komponen | Teknologi |
 |---|---|
 | Embedding | `sentence-transformers` (paraphrase-multilingual-MiniLM-L12-v2) |
-| Vector Database | ChromaDB |
-| LLM | Google Gemini API (`gemini-1.5-flash`) |
+| Vector Database | FAISS |
+| LLM | Google Gemini API (`gemini-2.5-flash`) |
 | Orchestration | LangChain |
 | UI | Streamlit |
 | Deployment | Streamlit Community Cloud |
@@ -45,7 +45,7 @@ chatbot-project/
 ├── raw_file/               # PDF dokumen asli
 ├── cleaned_file/           # Markdown hasil cleaning dari PDF
 ├── data/
-│   └── chroma_db/          # Vector database (dibuat oleh ingest.py)
+│   └── FAISS_db/          # Vector database (dibuat oleh ingest.py)
 ├── src/
 │   ├── chunking.py         # Memotong dokumen menjadi chunk
 │   ├── embedding.py        # Membuat embedding dan menyimpan ke ChromaDB
@@ -71,8 +71,8 @@ chatbot-project/
 
 **1. Clone repository**
 ```bash
-git clone https://github.com/username/chatbot-project.git
-cd chatbot-project
+git clone https://github.com/username/chatbot-fakultas-informatika-telkom-university.git
+cd chatbot-fakultas-informatika-telkom-university
 ```
 
 **2. Buat virtual environment**
@@ -115,7 +115,7 @@ Aplikasi ini dapat di-deploy gratis ke **Streamlit Community Cloud**:
 1. Push repository ke GitHub
 2. Buka [share.streamlit.io](https://share.streamlit.io) dan hubungkan repo
 3. Tambahkan `GEMINI_API_KEY` di bagian **Secrets** pada dashboard
-4. Pastikan folder `data/chroma_db/` ikut ter-commit ke repository
+4. Pastikan folder `data/FAISS_db/` ikut ter-commit ke repository
 
 ---
 
