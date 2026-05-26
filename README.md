@@ -2,7 +2,7 @@
 
 Chatbot berbasis **Retrieval-Augmented Generation (RAG)** yang menjawab pertanyaan seputar prosedur akademik Fakultas Informatika Telkom University. Dibangun sebagai tugas capstone.
 
-![Pipeline](assets/pipeline_chatbot.png)
+![Pipeline](assets/metodologi.png)
 
 ---
 
