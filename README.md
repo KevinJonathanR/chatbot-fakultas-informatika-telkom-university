@@ -57,7 +57,6 @@ chatbot-project/
 ├── ingest.py               # Script pemrosesan dokumen (jalankan sekali)
 ├── requirements.txt
 ├── .env.example
-└── CLAUDE.md               # Panduan pengembangan untuk AI assistant
 ```
 
 ---
