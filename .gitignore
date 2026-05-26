@@ -1,0 +1,27 @@
+# Environment
+.env
+
+# Data runtime (jangan di-commit)
+data/feedback.json
+/faiss_db/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
