@@ -4,8 +4,8 @@ Chatbot berbasis **Retrieval-Augmented Generation (RAG)** yang menjawab pertanya
 
 ![Pipeline](assets/metodologi.png)
 
-this project created by :
-1. Kevin Jonathan Rotty - Team Lead @KevinJonathanR
+This project created by:
+1. Kevin Jonathan Rotty - Team Lead [@KevinJonathanR](https://github.com/KevinJonathanR)
 
 ---
 
