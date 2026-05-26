@@ -7,6 +7,7 @@ Chatbot berbasis **Retrieval-Augmented Generation (RAG)** yang menjawab pertanya
 This project created by:
 1. Kevin Jonathan Rotty - Team Lead [@KevinJonathanR](https://github.com/KevinJonathanR)
 2. Justin Jeremia - Team Member [@jeremiajstin](https://github.com/jeremiajstin)
+3. Julian Sudiyanto - Team Member [@JulianSudiyanto](https://github.com/JulianSudiyanto)
 
 ---
 
