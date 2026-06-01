@@ -1,10 +1,6 @@
 # Environment
 .env
 
-# Data runtime (jangan di-commit)
-data/feedback.json
-/faiss_db/
-
 # Python cache
 __pycache__/
 *.py[cod]
@@ -18,6 +14,7 @@ env/
 
 # macOS
 .DS_Store
+**/.DS_Store
 
 # IDE
 .vscode/
@@ -25,3 +22,6 @@ env/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Runtime data
+data/feedback.json
