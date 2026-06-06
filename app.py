@@ -379,22 +379,32 @@ def generate_pdf(messages: list) -> bytes:
     return bytes(pdf.output())
 
 
-def render_sources(sources: list, answer: str, question: str):
-    """Render expander sumber dokumen dengan highlight."""
+def clean_snippet(text: str) -> str:
+    """Bersihkan snippet dari label dokumen di awal."""
+    text = re.sub(r'^\[.*?\]\s*\n?', '', text.strip())
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    return text.strip()
+
+
+def render_sources(sources: list, answer: str, question: str, key_prefix: str = "src"):
+    """Render expander sumber dokumen dengan highlight dan tombol download PDF."""
     info_not_found = "tidak tersedia dalam dokumen" in answer.lower()
     if not sources or info_not_found:
         return
+
     with st.expander(f"Sumber dokumen ({len(sources)})"):
         for k, source in enumerate(sources):
             if k > 0:
                 st.markdown("---")
+
             st.markdown(
                 f'<div style="font-size:11px; font-weight:600; letter-spacing:0.8px; '
                 f'text-transform:uppercase; color:#9A9A9A; margin-bottom:8px;">'
                 f'{source["name"]}</div>',
                 unsafe_allow_html=True
             )
-            snippet = source["snippet"]
+
+            snippet = clean_snippet(source["snippet"])
             display = (snippet[:450] + " …") if len(snippet) > 450 else snippet
             highlighted = highlight_snippet(display, question)
             st.markdown(
@@ -403,6 +413,31 @@ def render_sources(sources: list, answer: str, question: str):
                 f'border-left:2px solid #DC2626;">{highlighted}</div>',
                 unsafe_allow_html=True
             )
+
+        # ── Tombol download PDF di LUAR loop, satu per PDF unik ───────────────
+        st.markdown("---")
+        st.markdown(
+            '<div style="font-size:11px; color:#606060; margin-bottom:8px; '
+            'letter-spacing:0.8px; text-transform:uppercase;">Unduh Dokumen Sumber</div>',
+            unsafe_allow_html=True
+        )
+        seen_pdfs: set = set()
+        for k, source in enumerate(sources):
+            pdf_path = source.get("pdf_path")
+            pdf_name = source.get("pdf_name")
+            if pdf_path and pdf_name and pdf_name not in seen_pdfs:
+                seen_pdfs.add(pdf_name)
+                pdf_file = Path(pdf_path)
+                if pdf_file.exists():
+                    pdf_bytes = pdf_file.read_bytes()
+                    st.download_button(
+                        label=f"⬇  {pdf_name}",
+                        data=pdf_bytes,
+                        file_name=pdf_name,
+                        mime="application/pdf",
+                        key=f"{key_prefix}_pdf_{k}_{pdf_name.replace(' ', '_')}",
+                        use_container_width=False,
+                    )
 
 
 def render_follow_ups(follow_ups: list, key_prefix: str):
@@ -565,7 +600,7 @@ for idx, message in enumerate(st.session_state.messages):
 
             # Sumber dengan highlight
             sources = message.get("sources", [])
-            render_sources(sources, message["content"], q_text)
+            render_sources(sources, message["content"], q_text, key_prefix=f"hist_{idx}")
 
             # Pertanyaan lanjutan (hanya untuk pesan terakhir)
             if is_last:
@@ -600,7 +635,7 @@ if prompt:
                     time.sleep(0.02)
 
                 # Sumber
-                render_sources(sources, answer, prompt)
+                render_sources(sources, answer, prompt, key_prefix="new")
 
                 # Pertanyaan lanjutan (ditampilkan langsung setelah jawaban)
                 render_follow_ups(follow_ups, key_prefix="new")

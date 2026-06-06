@@ -1,2 +1,7 @@
 [server]
 fileWatcherType = "none"
+maxUploadSize = 200
+headless = true
+
+[runner]
+fastReruns = true
