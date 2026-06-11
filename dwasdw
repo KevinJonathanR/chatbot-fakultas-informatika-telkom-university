@@ -1,0 +1,20 @@
+warning: in the working copy of '.env.example', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.streamlit/config.toml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'cleaned_file/Panduan TA FIF.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'cleaned_file/Panduan_KP.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'cleaned_file/Pedoman Proposal TA.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'cleaned_file/Pedoman TAK.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'ingest.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'requirements.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/chunking.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/embedding.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/llm.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/rag_chain.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/retriever.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test_score.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test_threshold.py', LF will be replaced by CRLF the next time Git touches it
+.streamlit/config.toml
+app.py

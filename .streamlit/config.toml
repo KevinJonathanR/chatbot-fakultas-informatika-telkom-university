@@ -5,3 +5,9 @@ headless = true
 
 [runner]
 fastReruns = true
+
+[theme]
+primaryColor="#9B6DFF"
+backgroundColor="#170B3B"
+secondaryBackgroundColor="#241354"
+textColor="#FFFFFF"

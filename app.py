@@ -8,7 +8,7 @@ from src.rag_chain import ask_question
 
 # ── Konfigurasi Halaman ───────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Asisten Akademik",
+    page_title="FIFMate",
     page_icon="🎓",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -24,22 +24,44 @@ st.markdown("""
 
 /* Warna utama */
 :root {
-    --bg-main:       #212121;
-    --bg-card:       #2C2C2C;
-    --bg-hover:      #353535;
-    --sidebar-bg:    #1A1A1A;
-    --accent:        #DC2626;
-    --accent-hover:  #B91C1C;
-    --accent-muted:  rgba(220, 38, 38, 0.12);
-    --accent-border: rgba(220, 38, 38, 0.25);
-    --border:        #363636;
-    --text-primary:  #EFEFEF;
-    --text-secondary:#9A9A9A;
-    --text-muted:    #606060;
+    --bg-main:       #3A2E42;
+    --bg-card:       #4C3D55;
+    --bg-hover:      #5C4A66;
+    --sidebar-bg:    #322737;
+    --accent:        #796475;
+    --accent-hover:  #90788B;
+    --accent-muted:   rgba(121,100,117,0.20);
+    --accent-border: rgba(121,100,117,0.35);
+    --border:        #8F7990;
+    --text-primary:  #FFFFFF;
+    --text-secondary:#E8E0E6;
+    --text-muted:    #C8BDC5;
 }
 
 /* Background utama */
-.stApp,
+.stApp {
+    background:
+        radial-gradient(
+            circle at top right,
+            rgba(255,255,255,0.04),
+            transparent 35%
+        ),
+
+        radial-gradient(
+            circle at bottom left,
+            rgba(255,255,255,0.03),
+            transparent 40%
+        ),
+
+        linear-gradient(
+            180deg,
+            #4E4054 0%,
+            #43374A 50%,
+            #3A2E42 100%
+        ) !important;
+}
+
+/* semua layer Streamlit transparan */
 [data-testid="stAppViewContainer"],
 [data-testid="stMain"],
 [data-testid="stHeader"],
@@ -47,8 +69,7 @@ st.markdown("""
 section.main,
 .main,
 .block-container {
-    background-color: var(--bg-main) !important;
-    color: var(--text-primary);
+    background: transparent !important;
 }
 
 /* Sidebar */
@@ -64,20 +85,20 @@ section.main,
 /* Tombol utama */
 .stButton > button {
     width: 100%;
-    background-color: var(--accent) !important;
+    background: #796475 !important;
     color: #FFFFFF !important;
     border: none !important;
     border-radius: 8px !important;
-    padding: 10px 16px !important;
-    font-size: 14px !important;
-    font-weight: 500 !important;
+    padding: 14px 18px !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
     letter-spacing: 0.3px;
     cursor: pointer;
     transition: background 0.2s ease;
 }
 
 .stButton > button:hover {
-    background-color: var(--accent-hover) !important;
+    background: #90788B !important;
 }
 
 /* Tombol history — sibling selector karena div wrapper tidak bisa wrap st.button */
@@ -87,7 +108,7 @@ section.main,
     color: var(--text-secondary) !important;
     border: 1px solid transparent !important;
     border-radius: 6px !important;
-    font-size: 13px !important;
+    font-size: 16px !important;
     font-weight: 400 !important;
     text-align: left !important;
     padding: 8px 12px !important;
@@ -116,7 +137,7 @@ section.main,
 [data-testid="stChatMessage"] [data-testid="stMarkdown"]:has(.followup-btn) ~ div button,
 [data-testid="stChatMessage"] .followup-btn ~ div button {
     background-color: var(--accent-muted) !important;
-    color: #F87171 !important;
+    color: #D8D0FF  !important;
     border: 1px solid var(--accent-border) !important;
     border-radius: 20px !important;
     font-size: 13px !important;
@@ -126,7 +147,8 @@ section.main,
 
 /* Chat messages */
 .stChatMessage {
-    background-color: var(--bg-card) !important;
+    background: rgba(36,19,84,0.95) !important;
+    backdrop-filter: blur(8px);
     border: 1px solid var(--border-gray) !important;
     border-radius: 12px !important;
     padding: 14px 18px !important;
@@ -134,8 +156,8 @@ section.main,
 }
 
 [data-testid="stChatMessage-user"] {
-    background-color: var(--accent-muted) !important;
-    border-color: var(--accent-border) !important;
+    background: rgba(155,109,255,0.18) !important;
+    border-color: rgba(155,109,255,0.4) !important;
 }
 
 .stMarkdown p, .stMarkdown li {
@@ -155,17 +177,37 @@ div[class*="bottom"] {
 
 /* Input chat */
 [data-testid="stChatInput"] {
-    background-color: var(--bg-card) !important;
-    border: 1px solid var(--border) !important;
-    border-radius: 12px !important;
-    color: var(--text-primary) !important;
+    background: #5B4B63 !important;
+    border: 1px solid rgba(255,255,255,0.12) !important;
+    border-radius: 14px !important;
+}
+[data-testid="stChatInput"] textarea,
+[data-testid="stChatInput"] input {
+    color: white !important;
+    font-size: 15px !important;
 }
 
-[data-testid="stChatInput"]:focus-within {
-    border-color: var(--accent) !important;
-    box-shadow: 0 0 0 3px var(--accent-muted) !important;
+[data-testid="stChatInput"] > div {
+    background: #5B4B63 !important;
 }
 
+[data-testid="stChatInput"] textarea {
+    background: #5B4B63 !important;
+    color: white !important;
+}
+
+[data-testid="stChatInput"] input {
+    background: #5B4B63 !important;
+    color: white !important;
+}
+[data-testid="stChatInput"] button {
+    background: #796475 !important;
+    border-radius: 10px !important;
+}
+
+[data-testid="stChatInput"] button:hover {
+    background: #90788B !important;
+}
 /* Expander sumber */
 .streamlit-expanderHeader {
     background-color: var(--bg-card) !important;
@@ -196,24 +238,39 @@ hr {
 
 /* Welcome card */
 .welcome-card {
-    background: linear-gradient(135deg, #2E1E1E 0%, #2C2C2C 100%);
-    border: 1px solid var(--accent-border);
-    border-radius: 14px;
-    padding: 28px 32px;
+    background:
+        linear-gradient(
+            135deg,
+            #5B4B63 0%,
+            #4C3D55 50%,
+            #43374A 100%
+        );
+
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255,255,255,0.12);
+
+    border-radius: 16px;
+
+    padding: 40px 45px;
+
     margin-bottom: 24px;
+
+    box-shadow:
+        0 8px 32px rgba(0,0,0,0.15);
 }
 
 .welcome-card h3 {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 42px;
+    font-weight: 700;
     color: var(--text-primary);
     margin-bottom: 12px;
 }
 
 .welcome-card p, .welcome-card li {
-    font-size: 14px;
+    font-size: 20px;
     color: var(--text-secondary);
-    line-height: 1.7;
+    line-height: 1.8;
 }
 
 .example-chip {
@@ -221,9 +278,10 @@ hr {
     background-color: var(--accent-muted);
     border: 1px solid var(--accent-border);
     border-radius: 20px;
-    padding: 5px 14px;
-    font-size: 13px;
-    color: #F87171;
+    padding: 12px  20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #D8D0FF;
     margin: 4px 4px 4px 0;
 }
 
@@ -235,21 +293,24 @@ hr {
 }
 
 .page-title {
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 42px;
+    font-weight: 700;
     color: var(--text-primary);
     letter-spacing: -0.5px;
+    color: white;
 }
 
 .page-subtitle {
-    font-size: 14px;
+    font-size: 18px;
+    line-height: 1.7;
     color: var(--text-secondary);
     margin-top: 4px;
+    color: #E6DEFF;
 }
 
 /* Label sidebar */
 .sidebar-label {
-    font-size: 11px;
+    font-size: 15px;
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -352,7 +413,7 @@ def generate_pdf(messages: list) -> bytes:
 
     pdf.set_font('Helvetica', 'B', 14)
     pdf.set_text_color(30, 30, 30)
-    pdf.multi_cell(w, 10, clean('Asisten Akademik - Telkom University'), align='C', new_x='LMARGIN', new_y='NEXT')
+    pdf.multi_cell(w, 10, clean('FIFMate - Telkom University'), align='C', new_x='LMARGIN', new_y='NEXT')
 
     pdf.set_font('Helvetica', '', 9)
     pdf.set_text_color(130, 130, 130)
@@ -475,8 +536,8 @@ if "pending_question" not in st.session_state:
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown('<div class="page-title" style="font-size:18px;">Asisten Akademik</div>', unsafe_allow_html=True)
-    st.markdown('<div class="page-subtitle" style="font-size:12px;">Fakultas Informatika · Telkom University</div>', unsafe_allow_html=True)
+    st.markdown('<div class="page-title" style="font-size:38px;">FIFMate</div>', unsafe_allow_html=True)
+    st.markdown('<div class="page-subtitle" style="font-size:20px;">Fakultas Informatika · Telkom University</div>', unsafe_allow_html=True)
 
     st.markdown("---")
 
@@ -541,7 +602,7 @@ with st.sidebar:
 # ── Header ────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="page-header">
-    <div class="page-title">Asisten Akademik</div>
+    <div class="page-title">FIFMate</div>
     <div class="page-subtitle">Tanya seputar KP, Tugas Akhir, TAK, dan prosedur akademik lainnya.</div>
 </div>
 """, unsafe_allow_html=True)
@@ -555,7 +616,7 @@ if not st.session_state.messages:
         <p>Ajukan pertanyaan mengenai dokumen akademik resmi Fakultas Informatika.<br>
         Jawaban disusun berdasarkan panduan KP, TA, TAK, dan proposal TA.</p>
         <br>
-        <p style="font-size:12px; color:#555; margin-bottom:8px;">CONTOH PERTANYAAN</p>
+        <p style="font-size:14px; font-weight:600; color:#FFFFFF; margin-bottom:10px;letter-spacing:1px;">CONTOH PERTANYAAN</p>
         <span class="example-chip">Apa syarat mengambil TA?</span>
         <span class="example-chip">Berapa minimal SKS untuk KP?</span>
         <span class="example-chip">Bagaimana format proposal TA?</span>
