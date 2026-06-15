@@ -1,0 +1,194 @@
+question,answer,ground_truth,faithfulness,context_precision,context_recall
+Apa saja syarat untuk mahasiswa mendaftar Kerja Praktik?,"Untuk mendaftar Kerja Praktik, mahasiswa harus memenuhi syarat-syarat berikut:
+
+*   Merupakan mahasiswa aktif program sarjana Fakultas Informatika.
+*   Telah menyelesaikan semua mata kuliah tahun pertama dengan Indeks Prestasi (IP) minimal 2,00.
+*   Sudah dinyatakan lulus Tingkat I/TPB.
+*   Kerja Praktik dapat dilaksanakan paling cepat setelah berakhirnya Semester IV.","Syarat untuk mengikuti Mata Kuliah KP adalah: (1) Peserta adalah mahasiswa aktif program sarjana Fakultas Informatika yang telah menyelesaikan semua mata kuliah tahun pertama dengan IP ≥ 2,00 dan harus sudah dinyatakan lulus Tingkat I/TPB. (2) Kerja Praktik dapat dilaksanakan paling awal sesudah berakhirnya Semester IV.",1.0,0.14285714284285714,1.0
+Berapa lama durasi pelaksanaan Kerja Praktik?,"Durasi pelaksanaan Kerja Praktik (KP) adalah sebagai berikut:
+
+*   KP memiliki bobot 3 SKS.
+*   Bobot 3 SKS ini setara dengan total 144 jam dalam satu semester.
+*   Apabila dikonversikan ke hari kerja, dengan asumsi 1 hari kerja adalah 6 jam, maka durasi minimum KP adalah 24 hari kerja.
+*   Pelaksanaan KP minimal selama 24 hari kerja ini juga harus memperhatikan lini masa yang telah ditetapkan oleh Fakultas.","KP diberikan bobot 3 SKS yang setara dengan 144 jam dalam satu semester. Apabila dikonversikan ke hari kerja (1 hari kerja = 6 jam), maka durasi minimum KP adalah 144 jam ÷ 6 jam/hari = 24 hari kerja. KP minimal dilaksanakan selama 24 hari kerja.",0.8333333333333334,0.249999999975,1.0
+Dokumen apa saja yang harus dikumpulkan setelah KP selesai?,"Setelah Kerja Praktik (KP) selesai, mahasiswa perlu mengumpulkan beberapa dokumen kepada Pembimbing Akademik. Berkas-berkas yang harus diserahkan meliputi:
+
+*   Form KP-02
+*   Berkas laporan KP atau Laporan pelaksanaan KP
+*   BLP (Buku Log Praktik) yang telah berisi lembar yang ditandatangani oleh Pembimbing Lapangan dan disahkan dengan stempel dari instansi/perusahaan tempat KP.
+*   Form KP-03B dalam amplop tertutup.
+*   Surat Keterangan Selesai KP yang disahkan dengan tanda tangan dan cap dari instansi/perusahaan tempat KP.
+*   Form KP-03A.
+
+Selain penyerahan berkas fisik, mahasiswa juga perlu melengkapi data dan mengunggah berkas KP (seperti Data KP, Bukti Selesai KP, Laporan KP, dan pendukung lainnya) ke SiKaPe.","Berkas yang harus diserahkan mahasiswa kepada Pembimbing Akademik setelah KP selesai adalah: (1) Form KP-02 (berita acara bimbingan), (2) BLP (Buku Laporan Pelaksanaan) KP yang telah ditandatangani Pembimbing Lapangan dan distempel instansi, (3) Form KP-03B dalam amplop tertutup, (4) Surat Keterangan Selesai KP yang disahkan tanda tangan dan cap dari instansi.",1.0,0.4499999999775,1.0
+Bagaimana prosedur pengajuan tempat Kerja Praktik?,Informasi mengenai prosedur pengajuan tempat Kerja Praktik tidak ditemukan dalam dokumen akademik yang saya miliki.,"Prosedur pengajuan surat permohonan KP: (1) Mahasiswa mengisi Form KP-01 dengan melampirkan fotokopi KTM dan KSM. (2) Menyerahkan Form KP-01 beserta profil instansi dan CV ke Petugas Administrasi KP. (3) Petugas menyiapkan surat pengantar maksimal 3 hari setelah berkas diterima. (4) Mahasiswa mengirim surat pengantar ke perusahaan menggunakan amplop resmi institusi. (5) Mahasiswa memantau surat balasan di administrasi KP. (6) Mahasiswa dapat melaksanakan KP jika telah memperoleh surat balasan penerimaan dari instansi. Jika ditolak atau tidak ada jawaban dalam 1 bulan, mahasiswa dapat mengulang proses dari langkah ke-3.",0.0,0.0,0.0
+Siapa yang menilai laporan Kerja Praktik?,"Penilaian akhir Mata Kuliah Kerja Praktik (KP), termasuk penilaian laporan, merupakan hasil akumulasi nilai dari dua pihak penilai, yaitu:
+*   Pembimbing Lapangan
+*   Pembimbing Akademik
+
+Buku Laporan Pelaksanaan Kerja Praktik sendiri memiliki bobot 40% dari total penilaian KP, dan berfokus pada kualitas dokumentasi laporan.
+
+Untuk Program Studi S1 Informatika dan S1 Sains Data, proporsi bobot penilaian dari kedua pihak adalah sebagai berikut:
+*   Penilaian dari Pembimbing Lapangan memiliki bobot 40%.
+*   Penilaian dari Pembimbing Akademik memiliki bobot 60%.","Laporan KP dinilai oleh dua pihak: Pembimbing Lapangan (dari instansi tempat KP) dan Pembimbing Akademik (dosen FIF). Bobot penilaian berbeda per prodi: Untuk S1 Informatika dan S1 Sains Data: Pembimbing Lapangan 40%, Pembimbing Akademik 60%. Untuk S1 Teknologi Informasi dan S1 Rekayasa Perangkat Lunak: masing-masing 50%.",1.0,0.499999999975,0.6666666666666666
+Apa saja syarat untuk mengajukan Tugas Akhir?,"Berdasarkan dokumen yang diberikan, informasi spesifik mengenai syarat untuk mengajukan Tugas Akhir tidak dijelaskan secara langsung.
+
+Namun, dokumen tersebut menyatakan bahwa Tugas Akhir merupakan salah satu mata kuliah wajib dalam Kurikulum 2024 program sarjana di Fakultas Informatika dan merupakan salah satu syarat kelulusan. Tugas Akhir dibagi dalam rangkaian dua mata kuliah wajib, yaitu Penulisan Proposal dan Tugas Akhir. Pelaksanaan Tugas Akhir dapat dilakukan secara mandiri atau berkelompok.
+
+Dokumen ini lebih lanjut menjelaskan syarat-syarat untuk dapat melaksanakan **Sidang Tugas Akhir**, yaitu:
+
+*   Sudah lulus semua SKS Mata Kuliah selain TA.
+*   Laporan TA diberikan oleh mahasiswa kepada pembimbing dan penguji paling lambat 1 hari kerja sebelum jadwal pelaksanaan sidang TA.
+*   Mahasiswa mendapat rekomendasi sidang dari pembimbing (hasil pra sidang).","Syarat akademik untuk mengambil mata kuliah TA adalah: (1) Lulus MK Penulisan Proposal, (2) Diambil pada semester terakhir masa studi, (3) Sekurang-kurangnya sudah lulus 120 SKS pada semester tersebut, (4) Memiliki Surat Keputusan (SK) TA yang masih berlaku pada semester tersebut. Secara administrasi, mahasiswa harus terdaftar sebagai mahasiswa aktif di Fakultas Informatika.",0.75,0.0,0.0
+Berapa SKS minimal yang harus ditempuh sebelum mengambil TA?,"Sebelum mengambil Tugas Akhir (TA), mahasiswa wajib telah meluluskan mata kuliah (MK) dengan jumlah SKS minimal 140 SKS, di luar SKS MK TA itu sendiri.
+
+Selain itu, ada beberapa syarat lain yang perlu dipenuhi:
+*   Nilai Indeks Prestasi Kumulatif (IPK) dari total SKS yang telah diambil harus ≥ 2.01.
+*   Semua Mata Kuliah Wajib Prodi, selain MK TA, wajib sudah lulus.","Mahasiswa harus sekurang-kurangnya sudah lulus 120 SKS sebelum dapat mengambil mata kuliah TA, kecuali untuk kasus khusus yang ditetapkan oleh Program Studi. Selain itu, mahasiswa juga harus sudah lulus MK Penulisan Proposal (yang mensyaratkan minimal 110 SKS) dan memiliki SK TA yang masih berlaku.",1.0,0.0,0.0
+Bagaimana format penulisan laporan Tugas Akhir?,"Format penulisan laporan Tugas Akhir (TA) memiliki dua alternatif utama:
+
+*   **Laporan TA Biasa:** Ini adalah format laporan TA standar.
+*   **Makalah Ilmiah:** Ini adalah makalah yang dipublikasikan dalam prosiding atau jurnal.
+
+Untuk kedua alternatif format tersebut, ada beberapa ketentuan terkait penulisan dan afiliasi:
+
+*   **Penulis:** Nama mahasiswa harus dicantumkan sebagai Penulis 1.
+*   **Pembimbing:** Tim pembimbing harus dicantumkan dengan afiliasi Fakultas Informatika.
+*   **Pembimbing II (non-Telkom University):** Jika pembimbing II memiliki *homebase* di luar Universitas Telkom, afiliasinya harus disesuaikan dengan instansi pembimbing II tersebut.
+
+Khusus untuk bentuk TA Skripsi, luaran yang diharapkan adalah:
+
+*   **Luaran Internal:** Dapat berupa jurnal internal, konferensi internal, atau e-Proceeding.
+*   **Luaran Eksternal:** Berupa artikel pada jurnal dengan minimal peringkat Sinta-4.",Format laporan TA terdiri dari dua alternatif: Laporan TA atau Makalah ilmiah yang dipublikasikan. Laporan TA harus mencantumkan nama mahasiswa sebagai Penulis 1 dan tim Pembimbing dengan afiliasi Fakultas Informatika. Laporan TA dapat berbentuk jurnal atau buku sesuai arahan pembimbing. Contoh format laporan TA dapat diunduh pada media publikasi resmi Fakultas Informatika.,1.0,0.9999999999,1.0
+Apa yang dimaksud dengan sidang TA dan bagaimana prosedurnya?,"Sidang Tugas Akhir (TA) adalah tahapan penting dalam penyelesaian TA mahasiswa yang bertujuan untuk menetapkan status kelulusan mahasiswa melalui Sidang Yudisium setelahnya. Proses ini melibatkan evaluasi menyeluruh terhadap pengerjaan TA oleh tim penguji.
+
+Prosedur pelaksanaan Sidang TA meliputi beberapa tahapan:
+
+*   **Pra-Sidang:**
+    *   Mahasiswa mengajukan ""Siap Sidang"" melalui sistem igracias setelah menyelesaikan proses yang diperlukan.
+    *   Dosen pembimbing akan memberikan persetujuan log bimbingan dan persetujuan sidang di igracias.
+    *   Admin program studi akan memeriksa kelengkapan dokumen pra-syarat yang telah diunggah oleh mahasiswa.
+    *   Jika dokumen lengkap, Sidang TA akan dijadwalkan. Untuk Sidang TA Terjadwal, mahasiswa biasanya dijadwalkan di akhir semester berjalan (minggu 15-16) dan perlu melengkapi administrasi pendaftaran serta melampirkan dokumen yang telah ditentukan.
+    *   Panduan TA 2025 juga telah merevisi proses pendaftaran dan pelaksanaan Sidang/Pengganti Sidang.
+
+*   **Pelaksanaan Sidang:**
+    *   Hal-hal yang diperhatikan dalam pelaksanaan sidang meliputi ketentuan sidang, tata tertib, ketentuan tim penguji, kriteria penilaian, dan sistematika pengumuman kelulusan.
+    *   Dosen pembimbing atau penguji akan hadir dan memimpin sidang, memberikan persetujuan akhir, serta penilaian keseluruhan dari pengerjaan TA.
+    *   Terdapat beberapa bentuk sidang TA, seperti Sidang TA Non Terjadwal, Sidang TA Terjadwal, dan Sidang TA Khusus. Ada pula jalur non-sidang yang diatur dalam skema pengganti sidang TA.
+
+*   **Pasca-Sidang:**
+    *   Jika mahasiswa dinyatakan lulus, mereka wajib menyelesaikan revisi Tugas Akhir yang diberikan (jika ada).
+    *   Hasil revisi akan divalidasi dan disetujui oleh Dosen Pembimbing.
+    *   Apabila mahasiswa tidak memenuhi aturan revisi, mereka dapat diberikan kesempatan untuk mendaftar kembali pada sidang berikutnya.
+    *   Setelah pelaksanaan sidang TA, akan dilanjutkan dengan Sidang Yudisium untuk penetapan status kelulusan mahasiswa.","Sidang TA adalah sidang yang diselenggarakan untuk mengapresiasi, menjaga kualitas, diseminasi, menggali potensi pengetahuan mahasiswa, serta mengevaluasi validitas pemahaman mahasiswa tentang topik yang ditelitinya. Sidang dilaksanakan maksimum 90 menit per mahasiswa dalam 3 sesi: (1) Sesi Presentasi TA, (2) Sesi Diskusi/Tanya Jawab, (3) Sesi Sidang Tertutup. Terdapat 4 skema sidang: Non Terjadwal, Terjadwal, Khusus, dan Pengganti Sidang. Syarat umum: sudah lulus semua SKS MK selain TA, dan laporan TA diserahkan ke pembimbing dan penguji minimal 1 hari kerja sebelum jadwal sidang.",1.0,0.9999999999833333,1.0
+Berapa lama batas waktu pengerjaan Tugas Akhir?,"Mata Kuliah (MK) Tugas Akhir (TA) pada program sarjana di Fakultas Informatika, sesuai Kurikulum 2024, disetarakan dengan beban 6 SKS. Pengerjaan keseluruhan MK TA ini direncanakan selama 2 (dua) semester.
+
+Secara lebih rinci:
+*   MK TA terdiri dari MK Penulisan Proposal dengan bobot 2 SKS.
+*   MK TA inti memiliki bobot 4 SKS dan dilaksanakan dalam satu (1) semester setelah mahasiswa dinyatakan lulus MK Penulisan Proposal.","SK TA berlaku selama 6 bulan sejak diterbitkan. SK TA dapat diperpanjang maksimal 2 kali, dengan masing-masing perpanjangan berlaku 3 bulan. Jika SK TA habis masa berlaku dan sudah diperpanjang 2 kali, mahasiswa harus mengajukan SK TA baru dengan judul dan pembimbing yang berbeda. Total waktu maksimal dengan perpanjangan adalah sekitar 12 bulan.",0.5,0.24285714284499998,0.5
+Apa saja komponen yang harus ada dalam proposal TA?,"Komponen yang harus ada dalam proposal Tugas Akhir (TA) meliputi:
+
+*   **Sampul Muka**: Berisi informasi seperti judul TA, kelas, identitas mahasiswa (NIM dan Nama), Logo Universitas Telkom, dan program studi.
+*   **Lembar Persetujuan**: Memuat judul TA (Indonesia dan Inggris), NIM dan Nama Lengkap Mahasiswa, pernyataan pengajuan sebagai usulan TA, nama Program Studi dan Fakultas, kota dan tanggal, serta kolom tanda tangan Calon Pembimbing I dan Calon Pembimbing II (nama lengkap + NIP masing-masing).
+*   **Abstrak**
+*   **Pendahuluan**: Terdiri dari:
+    *   Latar Belakang
+    *   Perumusan masalah
+    *   Tujuan
+    *   Hipotesis (opsional)
+    *   Rencana kegiatan
+    *   Jadwal Kegiatan
+*   **Kajian Pustaka**
+*   **Perancangan Sistem atau Alur Pemodelan**
+*   **Daftar Pustaka**
+*   **Lampiran**
+
+Secara umum, proposal TA disarankan untuk berisikan Tahap Pendahuluan, Tahap Tinjauan Pustaka, dan Tahap Rencana Perancangan.","Isi proposal TA yang harus ada meliputi: (1) Sampul Muka, (2) Lembar Persetujuan yang ditandatangani calon pembimbing, (3) Abstrak, (4) Pendahuluan (latar belakang, perumusan masalah, tujuan, hipotesis opsional, rencana kegiatan, jadwal kegiatan), (5) Kajian Pustaka, (6) Perancangan Sistem atau Alur Pemodelan, (7) Daftar Pustaka (minimal 10 referensi, dari publikasi 5 tahun terakhir), (8) Lampiran.",0.4,0.9761904761742063,1.0
+Bagaimana format dan struktur penulisan proposal TA?,"Proposal Tugas Akhir (TA) adalah dokumen yang berisikan rencana TA yang akan dikerjakan oleh mahasiswa. Dokumen ini harus ditulis dengan kaidah penulisan ilmiah dan berfungsi untuk memberikan gambaran mengenai topik atau bahan kajian yang dibahas, rencana kerja, serta kesiapan mahasiswa dalam pengerjaan TA.
+
+Disarankan agar proposal TA memuat struktur sebagai berikut:
+
+*   **Tahap Pendahuluan**
+*   **Tahap Tinjauan Pustaka**
+*   **Tahap Rencana Perancangan**
+
+Selain itu, proposal TA juga memiliki elemen format tertentu:
+
+*   **Sampul Muka**: Berisikan informasi mengenai Judul TA, Kelas, Identitas Mahasiswa (NIM dan Nama), Logo Universitas Telkom, dan Program Studi.
+*   **Lembar Persetujuan**: Memuat Judul TA (dalam Bahasa Indonesia dan Inggris), NIM dan Nama Lengkap Mahasiswa, pernyataan pengajuan sebagai usulan TA, nama Program Studi dan Fakultas, kota dan tanggal, serta kolom tanda tangan Calon Pembimbing I dan Calon Pembimbing II (lengkap dengan nama dan NIP masing-masing). Calon pembimbing wajib membubuhkan tanda tangan pada lembar ini sebagai tanda persetujuan bahwa proposal yang diajukan telah layak dari sisi tata tulis maupun substansi kedalaman tema.","Format penulisan proposal TA: Kertas HVS ukuran A4 (210x297 mm), berat 80 g/m2. Margin: kiri 4 cm (1,58 inch), atas/kanan/bawah 3 cm (1,18 inch). Font: Times New Roman. Ukuran: Judul Bab 16pt, sub bab 14pt, sub-sub bab dan isi 12pt. Spasi 1,5 untuk seluruh isi proposal. Pengumpulan dapat berupa hardcopy (dicetak hitam) atau softcopy PDF.",0.7142857142857143,0.9999999999857143,0.0
+Apa persyaratan untuk mengambil mata kuliah Penulisan Proposal TA?,"Berdasarkan informasi yang tersedia, mata kuliah Penulisan Proposal TA merupakan salah satu dari dua mata kuliah wajib dalam rangkaian Tugas Akhir di kurikulum Program Studi S1 Fakultas Informatika. Mata kuliah ini juga merupakan salah satu syarat kelulusan bagi mahasiswa Program Studi S1 Fakultas Informatika.
+
+Namun, konteks yang diberikan tidak secara spesifik menjelaskan persyaratan akademik yang harus dipenuhi untuk dapat mengambil mata kuliah Penulisan Proposal TA tersebut, seperti jumlah SKS minimum atau mata kuliah prasyarat lainnya.","Mahasiswa yang hendak mengambil Mata Kuliah Penulisan Proposal harus memenuhi persyaratan: (a) Sudah lulus Sidang Tingkat 2, dan (b) Sudah lulus minimal 110 SKS, kecuali untuk mahasiswa yang dapat lulus lebih cepat dari masa studi normal melalui keputusan Ketua Program Studi Sarjana.",0.5,0.8666666666377778,1.0
+Bagaimana proses seminar proposal Tugas Akhir?,"Maaf, saya hanya dapat menjawab pertanyaan seputar KP, TA, TAK, dan Proposal TA. Untuk informasi lainnya, silakan hubungi pihak fakultas.","Presentasi proposal dilaksanakan paling tidak kepada calon pembimbing TA. Penilaian presentasi menggunakan Formulir TA1-03 dengan aspek: (1) Penguasaan Materi Proposal: menjawab latar belakang, perumusan masalah, tujuan, dan metodologi secara terstruktur, menguasai teori pendukung dan tools pemodelan/implementasi. (2) Expert Judgement: cara pemaparan/menjawab dan interpersonal communications. Seminar Proposal dilaksanakan pada sekitar Minggu ke-14 perkuliahan.",0.0,0.6861904761767524,1.0
+Siapa yang berhak menjadi pembimbing Tugas Akhir?,"Berdasarkan Pedoman Proposal Tugas Akhir dan Panduan Tugas Akhir (TA) FIF, berikut adalah pihak yang berhak menjadi pembimbing Tugas Akhir:
+
+*   **Pembimbing Satu:**
+    *   Merupakan dosen tetap.
+    *   Minimal berpendidikan S-2.
+    *   Memiliki jabatan akademik minimal Asisten Ahli (AA).
+    *   Bidang keahliannya harus linier dengan program studi.
+
+*   **Pembimbing Dua:**
+    *   Dapat berupa dosen dengan kualifikasi minimal S-2 dan jabatan akademik minimal Asisten Ahli (AA), dengan bidang keahlian yang linier atau mendukung topik Tugas Akhir.
+    *   Atau dapat berasal dari praktisi yang berpengalaman pada bidang yang sesuai dengan topik Tugas Akhir dan disetujui oleh pembimbing satu atau program studi.
+
+*   **Pembimbing Tunggal (khusus di Fakultas Informatika):**
+    *   Merupakan Dosen Tetap Fakultas Informatika.
+    *   Berpendidikan S3 (Doktor).
+    *   Memiliki Jabatan Fungsional Akademik (JFA) minimal Lektor (L).
+
+Selain kualifikasi di atas, pembimbing Tugas Akhir diupayakan memiliki kepakaran yang sesuai dengan bidang keilmuan Tugas Akhir yang diajukan oleh mahasiswa. Penetapan pembimbing dilakukan melalui rapat pleno yang diselenggarakan oleh Program Studi bersama Kelompok Keahlian, dan selanjutnya ditetapkan oleh Dekan.","Pembimbing TA terdiri dari: (a) Pembimbing Satu: dosen tetap minimal berpendidikan S-2 dengan jabatan akademik minimal Asisten Ahli (AA) pada bidang keahlian yang linier dengan program studi. (b) Pembimbing Dua: dosen minimal S-2 dengan jabatan akademik minimal AA dengan bidang keahlian linier/mendukung topik TA, atau praktisi berpengalaman di bidang yang sesuai dan disetujui pembimbing satu atau prodi. (c) Pembimbing Tunggal: Dosen Tetap Fakultas Informatika yang berpendidikan S3 (Doktor) dengan jabatan akademik minimal Lektor (L).",0.7692307692307693,0.8541666666453125,1.0
+Apa itu TAK dan apa tujuannya?,"Transkrip Aktivitas Kemahasiswaan (TAK) adalah catatan atau transkrip yang merekam dan mengevaluasi berbagai aktivitas kemahasiswaan yang diikuti oleh mahasiswa selama masa studinya di Universitas Telkom.
+
+Tujuan dan kepentingannya antara lain:
+
+*   **Pencatatan dan Penilaian Kegiatan Wajib:** TAK berfungsi untuk mencatat dan mengonversi partisipasi serta pencapaian mahasiswa dalam kegiatan wajib menjadi nilai TAK sesuai jenjang studi.
+*   **Pemenuhan Syarat Akademik:** Mahasiswa diwajibkan untuk memenuhi seluruh kegiatan wajib dan nilai kumulatif minimal TAK. Jika tidak terpenuhi, mahasiswa tidak dapat mengikuti kesempatan tertentu yang diatur dalam peraturan, kecuali ada ketetapan khusus dari Rektor.
+*   **Standar Nilai Minimum:** Ada nilai minimum TAK pilihan yang harus dipenuhi oleh mahasiswa berdasarkan jenjang studi mereka:
+    *   Sarjana/Diploma 4: 20 poin TAK
+    *   Diploma 3: 4 poin TAK
+    *   Program Ekstensi: 1 poin TAK
+*   **Dasar Perubahan dan Pelaporan:** Perubahan definisi, nilai, penambahan kegiatan, sistem pelaporan, dan persetujuan pada TAK didasarkan pada dokumen sesuai kegiatan yang dilaksanakan. Pelaporan dapat dilakukan secara mandiri atau kolektif dengan melampirkan sertifikat atau dokumen resmi.","Transkrip Aktivitas Kemahasiswaan (TAK) adalah rekap penilaian keaktifan mahasiswa dalam kegiatan kemahasiswaan selama menempuh pendidikan Sarjana dan Diploma di Universitas Telkom, yang dinyatakan dalam Indeks Keaktifan Kumulatif (IKK). Fungsi TAK antara lain: sebagai syarat pengajuan beasiswa, syarat seleksi mahasiswa berprestasi, syarat seleksi wisudawan berprestasi, bagian dari penilaian kelulusan sidang yudisium, meningkatkan soft skills dan kompetensi non-akademik mahasiswa, serta sebagai indikator performa pengembangan diri mahasiswa selama masa studi.",0.9090909090909091,0.6861904761767524,1.0
+Berapa poin TAK minimal yang harus dipenuhi mahasiswa?,"Berdasarkan Pedoman Transkrip Aktivitas Kemahasiswaan (TAK), mahasiswa wajib memenuhi total nilai TAK minimal sebagai syarat kelulusan, dengan rincian sebagai berikut:
+
+*   **Sarjana/Diploma 4:** minimal 60 poin TAK
+*   **Diploma 3:** minimal 45 poin TAK
+*   **Program Pendidikan Jarak Jauh:** minimal 40 poin TAK
+*   **Program Ekstensi:** minimal 35 poin TAK
+
+Total nilai TAK tersebut merupakan akumulasi dari aktivitas wajib (TAK wajib) dan aktivitas pilihan (TAK pilihan) yang diikuti oleh mahasiswa.
+
+Selain total nilai minimal di atas, terdapat juga nilai minimal yang harus dipenuhi pada beberapa kategori aktivitas tertentu:
+
+*   **Aktivitas Peminatan Mahasiswa:** Mahasiswa wajib memenuhi nilai minimal 20 poin TAK dari kategori ini. Kegiatan ini bersifat pilihan dan dapat dilaporkan secara mandiri atau kolektif.
+*   **Orientasi Mahasiswa Baru:** Mahasiswa wajib memenuhi nilai minimal 16 poin TAK melalui keikutsertaan dalam rangkaian Program Orientasi Mahasiswa Baru dan Wawasan Kebangsaan (PKKMB).
+*   **Kategori kegiatan wajib tertentu:** Mahasiswa wajib memenuhi minimal 16 poin TAK pada kategori ini, di mana setiap sub-kegiatan memiliki nilai sebesar 2 poin TAK. Kegiatan ini bersifat wajib dan pelaporannya dilakukan secara kolektif oleh Direktorat Kemahasiswaan, Karier, dan Alumni.","Nilai kumulatif minimal TAK berdasarkan jenjang pendidikan: Mahasiswa Sarjana/D4 Reguler: minimal 60 poin (maksimal 120 poin), IKK minimal 2,00. Mahasiswa D3 Reguler: minimal 45 poin (maksimal 90 poin). Mahasiswa S1 Pendidikan Jarak Jauh (PJJ): minimal 40 poin (maksimal 80 poin). Mahasiswa S1 Ekstensi: minimal 35 poin (maksimal 70 poin). Mahasiswa Asing S1/D4: minimal 40 poin (maksimal 80 poin).",1.0,0.9150793650641136,0.8
+Kegiatan apa saja yang bisa mendapatkan poin TAK?,"Untuk mendapatkan poin Transkrip Aktivitas Kemahasiswaan (TAK), mahasiswa dapat mengikuti berbagai jenis kegiatan yang terbagi menjadi kegiatan wajib dan pilihan.
+
+Berikut adalah kategori dan contoh kegiatan yang bisa mendapatkan poin TAK:
+
+*   **Aktivitas Kemahasiswaan:**
+    *   Organisasi
+    *   Duta Kampus
+    *   Kepanitiaan
+    *   Aktivitas Kemahasiswaan ini terdiri dari kegiatan wajib dan kegiatan pilihan. Kegiatan pilihan adalah aktivitas yang dapat dipilih secara bebas untuk memenuhi kekurangan nilai TAK.
+
+*   **Aktivitas Perencanaan Karier:**
+    *   Kegiatan pilihan dalam kategori ini juga dapat mendapatkan nilai TAK.
+
+*   **Aktivitas Peminatan Mahasiswa:**
+    *   Kategori ini bersifat pilihan dan mencakup seluruh aktivitas peminatan serta kegiatan pilihan mahasiswa. Mahasiswa wajib memenuhi nilai minimal 20 poin TAK dari kategori ini.
+
+*   **Aktivitas Orientasi Mahasiswa Baru (PKKMB):**
+    *   Kegiatan ini termasuk dalam rekomendasi pengambilan kegiatan untuk memenuhi persyaratan TAK.
+
+*   **Kegiatan Pengembangan Diri dan Karakter:**
+    *   Ini mencakup, tetapi tidak terbatas pada, pengembangan *soft skills*, pelatihan kepemimpinan, serta kegiatan kebugaran maupun kesehatan mental.","Kegiatan yang dapat menghasilkan poin TAK meliputi: (1) Orientasi Mahasiswa Baru (PKKMB dan Wawasan Kebangsaan), (2) Aktivitas Pengembangan Karakter (self-management, leadership, entrepreneur mindset, dll), (3) Aktivitas Pembelajaran: kompetisi (BELMAWA dan mandiri), penelitian, publikasi ilmiah, pengabdian masyarakat, entrepreneurship, pembelajaran luar kampus, kekayaan intelektual, (4) Aktivitas Kemahasiswaan: organisasi kemahasiswaan, kepanitiaan, duta kampus, (5) Aktivitas Perencanaan Karier (career preparation training, bimbingan karier), (6) Aktivitas Peminatan: seminar, pelatihan, sertifikasi, rekognisi, pameran karya.",0.9090909090909091,0.9999999999857143,1.0
+Bagaimana cara mengajukan poin TAK?,Informasi tersebut tidak tersedia dalam dokumen yang ada. Silakan hubungi pihak fakultas atau kunjungi website resmi Telkom University.,"Terdapat dua cara pelaporan TAK: (1) Pelaporan TAK Kolektif: untuk kegiatan yang diselenggarakan oleh Universitas Telkom, organisasi kemahasiswaan, atau unit resmi kampus, pelaporan dilakukan secara kolektif oleh panitia penyelenggara ke Direktorat/Bagian Kemahasiswaan. (2) Pelaporan TAK Mandiri: untuk kegiatan eksternal, mahasiswa melaporkan secara mandiri melalui Sistem Pelaporan TAK dengan mengunggah bukti keikutsertaan. Batas waktu pelaporan mandiri: maksimal 6 bulan setelah kegiatan berlangsung dalam tahun yang sama. Untuk kegiatan Oktober-Desember, batas pelaporan adalah akhir Februari tahun berikutnya.",0.0,0.0,0.0
+Apakah TAK berpengaruh pada kelulusan mahasiswa?,"Ya, Transkrip Aktivitas Kemahasiswaan (TAK) berpengaruh pada kelulusan mahasiswa.
+
+Berdasarkan pedoman, mahasiswa wajib memenuhi nilai minimal TAK pada beberapa kategori:
+*   Mahasiswa wajib memenuhi nilai minimal 16 poin TAK pada kategori Orientasi Mahasiswa Baru. Pemenuhan nilai ini dilakukan melalui keikutsertaan dalam rangkaian Program Orientasi Mahasiswa Baru dan Wawasan Kebangsaan (PKKMB) yang diselenggarakan oleh universitas.
+*   Selain itu, terdapat sub-kegiatan lain yang juga bersifat wajib, di mana setiap sub-kegiatan memiliki nilai 2 poin TAK, dengan total nilai minimum yang harus dipenuhi pada kategori ini adalah 16 poin TAK.
+
+Kewajiban memenuhi nilai TAK ini menunjukkan bahwa TAK merupakan salah satu persyaratan yang harus dipenuhi mahasiswa untuk kelulusan.","Ya, TAK berpengaruh langsung pada kelulusan mahasiswa. TAK merupakan bagian dari penilaian kelulusan sidang yudisium. Mahasiswa yang tidak melaksanakan seluruh kegiatan wajib dan tidak memenuhi nilai kumulatif minimal TAK tidak dapat mengikuti sidang yudisium untuk kelulusan. Untuk mahasiswa Sarjana/D4, nilai minimal yang harus dipenuhi adalah 60 poin TAK. Nilai TAK dikonversikan menjadi Indeks Keaktifan Kumulatif (IKK) dengan rumus: IKK = (Ni / Nm) × 4, di mana IKK minimal yang harus dicapai adalah 2,00.",0.75,0.9999999999857143,0.8

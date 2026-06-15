@@ -4,7 +4,7 @@ from src.embedding import load_vectorstore
 
 # ── Konfigurasi ───────────────────────────────────────────────────────────────
 TOP_K = 10    # jumlah chunk yang diambil dari FAISS
-RETURN_K = 5  # jumlah chunk yang dikirim ke LLM
+RETURN_K = 7  # jumlah chunk yang dikirim ke LLM
 
 # FIX BUG #2: Threshold similarity score (L2 distance — makin kecil makin relevan).
 # Chunk dengan jarak L2 > ambang ini dianggap tidak relevan dan dibuang.
