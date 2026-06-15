@@ -10,7 +10,7 @@ RETURN_K = 10  # jumlah chunk yang dikirim ke LLM
 # Chunk dengan jarak L2 > ambang ini dianggap tidak relevan dan dibuang.
 # FAISS pakai L2 distance: nilai 0 = identik, makin besar = makin jauh/tidak relevan.
 # Nilai 1.2 dipilih empiris untuk multilingual-MiniLM; turunkan jika masih hallusinasi.
-SIMILARITY_THRESHOLD = 18.0
+SIMILARITY_THRESHOLD = 16.0
 
 
 def get_relevant_documents(question: str) -> list:
